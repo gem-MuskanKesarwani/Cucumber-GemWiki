@@ -7,6 +7,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/java/Features/HomePage.feature",
         glue="StepDefinitions",
+        plugin = {"com.gemini.generic.plugin.CucumberJewelPlugin"},
         // plugin = { "pretty","html:target/cucumber-reports"},
         monochrome = true
 )

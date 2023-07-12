@@ -68,7 +68,11 @@
       <version>LATEST</version>
       <scope>test</scope>
     </dependency>
-
+<!--    <dependency>-->
+<!--      <groupId>com.gemecosystem.gemjar</groupId>-->
+<!--      <artifactId>gemjar-core</artifactId>-->
+<!--      <version>1.2.5</version>-->
+<!--    </dependency>-->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-jcl</artifactId>
@@ -77,6 +81,27 @@
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-nop -->
 
+    <!-- https://mvnrepository.com/artifact/log4j/log4j -->
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.17</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>2.20.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.10.1</version>
+    </dependency>
+    <dependency>
+      <groupId>io.github.classgraph</groupId>
+      <artifactId>classgraph</artifactId>
+      <version>4.8.161</version>
+    </dependency>
 
 
   </dependencies>

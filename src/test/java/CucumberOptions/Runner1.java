@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/java/Features/Login.feature",
         glue="StepDefinitions",
-       // plugin = { "pretty","html:target/cucumber-reports"},
+         plugin = { "com.gemini.generic.plugin.CucumberJewelPlugin"},
         monochrome = true
 )
 public class Runner1{

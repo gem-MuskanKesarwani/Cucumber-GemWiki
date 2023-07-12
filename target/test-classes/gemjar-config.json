@@ -1,0 +1,9 @@
+{
+  "environment": "beta",
+  "project_name": "JEWEL",
+  "report_name": "TESTNG-PLUGIN-REPORT",
+  "jewel_user": "geco-maulick",
+  "jewel_bridge_token": "0da68d04-6cb7-4503-b9d0-ef9c4361b31f1683785765731",
+  "enter_point": "https://apis-beta.gemecosystem.com/enter-point",
+  "glue_code": "StepDefinitions"
+}
